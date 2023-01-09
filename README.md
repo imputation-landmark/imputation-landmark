@@ -3,7 +3,9 @@
 ### File Structure
 + `code/`: Source code of SMFL in Python, `evaluation.py` is the entry of the experiment.
 + `code/datasets_missing`: All datasets with masks used in the experiments.
-+ `data/`: The datasets used in the paper, details of the datasets as well as pre-processing could be found in draft.
++ `data/`: The raw data of the datasets used in the paper, details of the datasets as well as pre-processing could be found in the papr. 
+  + Since Vehicle Dataset is collected by our industrial partner, we do not include the raw data here, but the desensitized and masked experimental data are still provided in `code/datasets_missing`.
+
 + `docs/`: Appendix of the paper
 
 
